@@ -11,5 +11,5 @@ public class Context(DbContextOptions options) : DbContext(options)
         optionsBuilder.UseInMemoryDatabase(databaseName: "CarterDemo");
     }
 
-    public DbSet<Car> Cars { get; set; }    
+    public DbSet<Car> Cars { get; set; }
 }
