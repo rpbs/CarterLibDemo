@@ -9,7 +9,7 @@ public class Context(DbContextOptions options) : DbContext(options)
    (DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseInMemoryDatabase(databaseName: "CarterDemo");
-    }s    
+    }
 
     public DbSet<Car> Cars { get; set; }    
 }
